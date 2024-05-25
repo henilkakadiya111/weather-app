@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder=" Enter city name:" class="search-bar">
+            <button class="button">Go</button>
+        </div>
+        <div class="info">
+            <div class="city">Weather in city is:</div>
+            <div class="temp">Temperature:</div>
+            <div class="show">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity:</div>
+            <div class="wind">Wind Speed:</div>
+            <div class="temprange">Min/Max Temp. :</div>
+        </div>
+        <form action="/index.html" class="form">
+            <button class="button">
+                <=Home
+            </button>
+        </form>
+        <form action="/weather by lonlat/home.html" class="form">
+            <button class="button">
+                search by Lon. Lat.
+            </button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

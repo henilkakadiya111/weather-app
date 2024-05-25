@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: gray;
+    background-image: url('https://source.unsplash.com/1600x900/?weather');
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.card
+{
+    background: #032c62;
+    color: white;
+    opacity: 0.833;
+    padding: 2cm;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin: 1em;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.button{
+    margin: 0.1cm;
+    border-radius:0.25cm;
+    border: none;
+    height: 0.90cm;
+    outline: none;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+}
+.search-bar{
+    padding: 0.25em;
+    margin: 0.1cm;
+    border-radius:0.25cm;
+    border: none;
+    outline: none;
+    width: 6cm;
+    height: 0.65cm;
+    background-color: black;
+    opacity: 0.5;
+    color:#5cc4b8;
+    font-family: inherit;
+    font-size: 120%;
+}
+.search-bar:hover{
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+.button:hover{
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+}
+
+    .city {
+    margin: 0;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
+    .temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
+  
+  .show {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
+  .wind{
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
+  .humidity{
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
+  .temprange{
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+  }
